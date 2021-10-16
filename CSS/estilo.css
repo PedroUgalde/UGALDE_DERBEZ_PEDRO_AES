@@ -1,0 +1,174 @@
+html{
+	background-position:center;
+    
+    background-image: url("https://cutewallpaper.org/21/free-website-backgrounds/Cool-Backgrounds.png");
+    background-color: #000000;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+   
+}
+h2{
+    font-family: 'Lobster', cursive;
+}
+p{
+    font-family: 'Abel', sans-serif;
+font-family: 'Lobster', cursive;
+}
+div{
+
+    align-items: center;
+    background-color: aliceblue;
+    opacity: .9;
+    width: 40%;
+    margin: 5;
+    border-radius: 30;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+/* IMPORTANTE */
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+textarea{
+    align-items: center;
+    background-color: aliceblue;
+    opacity: .9;
+    width: 40%;
+    margin: 5;
+    border-radius: 30;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+/* IMPORTANTE */
+    text-align: center;
+    margin: 0 auto;
+}
+input{
+    align-items: center;
+    background-color: rgb(158, 194, 224);
+    color: white;
+    opacity: .9;
+    width: 60%;
+    height: 5px;
+
+    margin: 5;
+    border-radius: 30;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid rgb(1, 4, 37);
+/* IMPORTANTE */
+    text-align: center;
+    margin: 0 auto;
+}
+fieldset{
+    box-shadow: 2px 2px 5px black ;
+}
+legend{
+    color: #ffff;
+    font-size:24px;
+    background-color: #00f080;
+    box-shadow: 2px 2px 5px black ;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 80px;
+}
+.btn{
+    color: #ffff;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.btnActivo{
+    background-color: #00f080;
+}
+.btnDesactivo{
+    background-color: #0e614a;
+}
+.contenedor{
+	width:80%;
+	background-color: #132f13;
+    padding: 35px 45px 35px 50px;
+    min-height: 350px;
+    max-height: 600px;
+	margin:auto;
+	margin-top:65px;
+    border-radius:9px;
+    overflow: auto;
+}
+p{
+    font-size:18px; 
+    color: #CFD5E6;
+    font-family: sans-serif;
+    display: inline;
+    min-width: 500px;
+    float: left;
+}
+label{
+    font-size:18px; 
+    color: #CFD5E6;
+    font-family: sans-serif;
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.ip{
+    width:10%;
+    height:20px;
+    line-height:150%;
+    resize:none;
+}
+.input{
+    font-family:Arial;
+    font-size:18px;
+    line-height:22px;
+    background-color:#132f13;
+    color: #ffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border:2px solid #acffc1;
+}
+#principal{ 
+    background-color: #132f13; 
+    width: 45%;
+    display: inline;
+    float: left;
+    margin-right:50px; 
+    
+ }
+#resultado{ 
+    width: 40%; 
+    float:left;
+    height: 150px;
+    display: inline;
+    height: 120px; 
+    padding: 15px;
+    word-wrap: break-word;
+    overflow: auto;
+} 
+#button {
+    background-color: white;
+    color: black;
+    border: 2px solid #9eedf3; /* Green */
+    width: 150px;
+    height: 40px;
+}
+#button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#button:hover {
+    background-color: #6ac7f1; /* Green */
+    color: white;
+}

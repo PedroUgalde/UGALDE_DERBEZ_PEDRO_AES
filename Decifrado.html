@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilo.css" />
+    <title>Descifrado AEAS</title>
+   
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" ></script>
+    <div class="col-md-5 offset-md-3 card" style="margin-top: 4%;">
+        <center>
+            <h1>DESCIFRADO</h1>
+            <br>
+            <table style="margin: 0 auto;">
+                <h4>Seleccione el tipo de cifrado</h4><br><select name="tipoAES" id="tipo">
+                    <option value="128">128</option>
+                    
+                    <option value="192">192</option>
+                    
+                    <option value="256">256</option>
+                    
+                </select>
+                <br>
+                <br>
+                <textarea id="area" class="form-control" id="txtcifrado" placeholder="Mensaje Cifrado"></textarea>
+                <br>
+                <input class="form-control" type="txt" placeholder="Clave" id="clave" >
+            <td>
+                <input class="btn btn-info" id="button" type="button" value="Descifrar" onclick="descifrar()">
+                <br>
+                <br>
+                <button class="btn btn-danger" id="button"><a href="index.html">Regresar</a></button>
+                <br>
+                <br>
+            </td>
+            <br>
+            <tr>
+                El texto descifrado es:<br>
+                <textarea id="area" class="form-control" id="txtdescifrado" placeholder="Texto Descifrado" disabled></textarea>
+            </tr>
+                
+                
+                
+                
+        </table>
+            
+        
+        </center>
+    </div>
+    <script src="JS/js.js"></script>
+</body>
+</html>
